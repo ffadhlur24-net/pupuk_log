@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Environment variables (Sangat penting agar rahasia API Supabase tidak terunggah ke GitHub)
+.env
+.env.*
+!.env.example
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
